@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 10vw;
+}
+h1{
+    text-align: center;
+}
+.game{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 0vw;
+    padding-bottom: 2vh;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 5rem;
+}
+.reset-btn{
+    padding: 2vh 3vh;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+.hidden{
+    display: none;
+}
